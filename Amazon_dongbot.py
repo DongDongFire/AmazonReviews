@@ -103,9 +103,9 @@ class Amazon_dongbot:
 
         
         #파일 이름 설정
-        writer=pd.ExcelWriter('Amazon %s test.xlsx'%names[:10],engine='xlsxwriter')
-        df.to_excel(writer, sheet_name='Raw')
+        #writer=pd.ExcelWriter('Amazon %s test.xlsx'%names[:10],engine='xlsxwriter')
+        #df.to_excel(writer, sheet_name='Raw')
 
-        writer.save()
+        #writer.save()
 
         return df
